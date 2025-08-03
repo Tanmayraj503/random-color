@@ -61,29 +61,43 @@ button {
     transition: scale 0.1s ease-in-out;
 }
 
-@media (max-width: 600px) {
-    body {
-        padding: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
     }
 
+    #randomcolor,
+    #applycolor {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+    }
+
+    .colorname {
+        font-size: 0.95rem;
+        width: 90%;
+    }
+
+    .colorRN {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
     h1 {
         font-size: 2rem;
     }
 
-    #randomcolor, #applycolor {
-        font-size: 1.2rem;
+    #randomcolor,
+    #applycolor {
+        font-size: 1rem;
         padding: 8px 16px;
     }
 
     .colorname {
-        width: 250px;
         font-size: 0.9rem;
     }
 
     .colorRN {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
